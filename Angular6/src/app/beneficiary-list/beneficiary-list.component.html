@@ -1,0 +1,19 @@
+<div class="col s7">
+    <table class="responsive-table highlight">
+        <thead>
+          <tr>
+            <th>idNumber</th>
+            <th>firstName</th>
+            <th>title</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tr *ngFor="let ben of beneficiaryService.list">
+          <td>{{ben.idNumber}}</td>
+          <td>{{ben.firstName}}</td>
+          <td>{{ben.title}}</td>
+          
+        </tr>
+      </table>
+  </div>
+  
